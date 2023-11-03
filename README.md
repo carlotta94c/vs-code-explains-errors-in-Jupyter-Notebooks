@@ -32,6 +32,17 @@ When you try to import in your code a library that is not installed in your deve
 _NameError_ usually occurs when you try to use a variable that has not been defined before usage or it's out of scope. Sometimes it can be due simply to a typo, making the variable name declared and used not match, as in the code cell below.
 ![Name Error Example](https://github.com/carlotta94c/vs-code-explains-errors-in-Jupyter-Notebooks/assets/82521518/77e78a1c-bb63-449f-a16a-e039e17eec73)
 
+## GitHub Copilot Features
+The demo leverages some of the GitHub Copilot features available in VS Code, such as:
+1. *Inline suggestions*: GitHub Copilot complete your code and markdown cell content as you type
+2. *Chat*: GitHub Copilot offers a chat experience (both inline and in the sidebar) to get assistance in VS Code, avoiding context-switching
+3. Several [*slash commands*](https://code.visualstudio.com/docs/editor/github-copilot#_slash-commands), such as:
+   - /createNotebook -> to create a Jupyter Notebook with some specifications
+   - /fix -> to get a suggestion to fix an error
+   - /vscode -> to ask question regarding working with VS Code
+   - /explain -> to ask clarifications about code or error messages
+   - /document -> to get an AI auto generated documentation of your code
+
 
 
 

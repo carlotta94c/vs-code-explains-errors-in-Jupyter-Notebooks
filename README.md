@@ -22,15 +22,15 @@ To replicate the demo, you need the following pre-requisites:
 
 ### 1. Indentation Error
 Whereas in other programming languages the indentation in code is for readability only, the indentation in Python is very important. Python uses indentation to indicate a block of code, so you have to use the same number of spaces in the same block of code, otherwise Python will give you an error, like in the example below.
-![Indentation Error Example](https://github.com/carlotta94c/vs-code-explains-errors-in-Jupyter-Notebooks/assets/82521518/31e021b7-43ac-4e00-8a88-b31f33bd1151)
+![Indentation Error Example](./images/IndentationError.png)
 
 ### 2. Module Not Found Error
 When you try to import in your code a library that is not installed in your development environment, you'll encounter a _ModuleNotFound_ error. In our example below, we are trying to use the [seaborn](https://seaborn.pydata.org/) library, which is not installed in our venv.
-![Module Not Found Error Example](https://github.com/carlotta94c/vs-code-explains-errors-in-Jupyter-Notebooks/assets/82521518/8257b836-6a2e-4618-9b11-4501ddb59838)
+![Module Not Found Error Example](./images/ModuleNotFound.png)
 
 ### 3. Name Error
 _NameError_ usually occurs when you try to use a variable that has not been defined before usage or it's out of scope. Sometimes it can be due simply to a typo, making the variable name declared and used not match, as in the code cell below.
-![Name Error Example](https://github.com/carlotta94c/vs-code-explains-errors-in-Jupyter-Notebooks/assets/82521518/77e78a1c-bb63-449f-a16a-e039e17eec73)
+![Name Error Example](./images/NameError.png)
 
 ## GitHub Copilot Features
 This demo leverages some of the GitHub Copilot features available in VS Code to troubleshoot and fix the errors above:

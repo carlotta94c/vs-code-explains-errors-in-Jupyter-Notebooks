@@ -10,12 +10,16 @@ The original Jupyter Notebook (version without errors) along with the related do
 ⚠️ **The notebook included in this repo contains errors for didactic purposes, so it will not execute successfully as it is.** You can use this as a base to follow along with the [video content]() and troubleshoot the errors with GitHub Copilot and VS Code. 
 
 ## Pre-requisites
-To replicate the demo, you need the following pre-requisites:
+To replicate the demo on **your local machine**, you need the following pre-requisites:
 1. Install [VS Code](https://code.visualstudio.com/) on your machine
 2. Sign up for a [GitHub Copilot free trial](https://github.com/github-copilot/signup/?WT.mc_id=academic-111460-cacaste) 
 3. Install [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot&WT.mc_id=academic-111460-cacaste) and [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat&WT.mc_id=academic-111460-cacaste) extensions on VS Code
-4. Install the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-111460-cacaste) 
+4. Install the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-111460-cacaste) and the [Jupyter extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter&WT.mc_id=academic-111460-cacaste) to work with Python Jupyter notebooks in VS Code 
 5. [Create a virtual environment](https://code.visualstudio.com/docs/python/environments#_using-the-create-environment-command) with [numpy](https://pypi.org/project/numpy/) and [pandas](https://pypi.org/project/pandas/) packages installed
+
+To run the demo on **the Cloud**, leveraging [GitHub Codespaces](https://github.com/features/codespaces/?WT.mc_id=academic-111460-cacaste), the only pre-requisite you need is GitHub Copilot enabled in your subscription (as per step 2 above). Then you can open your pre-configured environment on the browser, by clicking on the button below:
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=709249360)
 
 ## Errors
 [Copilot Explains episode 6]() covers 3 types of common errors when working with Python in Jupyter Notebooks.

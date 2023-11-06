@@ -42,6 +42,7 @@ This demo leverages some of the GitHub Copilot features available in VS Code to 
    - /fix -> to get a suggestion to fix an error
    - /vscode -> to ask questions regarding working with VS Code
    - /explain -> to ask clarifications about code or error messages
+   - /clear -> to clear the chat window
    - /document -> to get an AI auto generated documentation of your code
 
 ## Useful resources

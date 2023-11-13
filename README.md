@@ -3,11 +3,15 @@
 Data scientists and AI engineers love to work with Jupyter Notebooks because they make so much easier to look at the result of each and every data exploration step or data modeling experiment and take decisions accordingly.
 However, Jupyter notebooks are not immune to errors and sometimes understanding error messages - in particular if you aren’t a native English speaker or you are a beginner - and troubleshooting code might be painful and time consuming. 
 
-In this repo, you'll find the code shown in [Copilot Explains Episode 6: Error troubleshooting in Jupyter Notebooks]().
+In this repo, you'll find the code shown in [Copilot Explains Episode 6: Error troubleshooting in Jupyter Notebooks](https://www.youtube.com/watch?v=Wc9ZyHG0xxA&list=PLj6YeMhvp2S79zZvNkatCxVAvALHDwsn3&index=6?WT.mc_id=academic-111460-cacaste).
+
+[![Copilot Explains Episode 6: Error troubleshooting in Jupyter Notebooks](./images/VideoBanner.jpg)](https://www.youtube.com/watch?v=Wc9ZyHG0xxA&list=PLj6YeMhvp2S79zZvNkatCxVAvALHDwsn3&index=6?WT.mc_id=academic-111460-cacaste)
 
 The original Jupyter Notebook (version without errors) along with the related documentation is taken from [Lesson 4 - Logistic Regression](https://github.com/microsoft/ML-For-Beginners/tree/main/2-Regression/4-Logistic/?WT.mc_id=academic-111460-cacaste) of the [Machine Learning for Beginners](https://github.com/microsoft/ML-For-Beginners//?WT.mc_id=academic-111460-cacaste) open-source curriculum.
 
-⚠️ **The notebook included in this repo contains errors for didactic purposes, so it will not execute successfully as it is.** You can use this as a base to follow along with the [video content]() and troubleshoot the errors with GitHub Copilot and VS Code. 
+⚠️ **The notebook included in this repo contains errors for didactic purposes, so it will not execute successfully as it is.** You can use this as a base to follow along with the [video content](https://www.youtube.com/watch?v=Wc9ZyHG0xxA&list=PLj6YeMhvp2S79zZvNkatCxVAvALHDwsn3&index=6?WT.mc_id=academic-111460-cacaste) and troubleshoot the errors with GitHub Copilot and VS Code. 
+
+> Copilot is updated with great changes/features often. Some commands may have changed by the time you see this video so please refer to the [latest release notes](code.visualstudio.com/updates/).
 
 ## Pre-requisites
 To replicate the demo, you need the following pre-requisites:
@@ -18,7 +22,7 @@ To replicate the demo, you need the following pre-requisites:
 5. [Create a virtual environment](https://code.visualstudio.com/docs/python/environments#_using-the-create-environment-command) with [numpy](https://pypi.org/project/numpy/) and [pandas](https://pypi.org/project/pandas/) packages installed
 
 ## Errors
-[Copilot Explains episode 6]() covers 3 types of common errors when working with Python in Jupyter Notebooks.
+[Copilot Explains episode 6](https://www.youtube.com/watch?v=Wc9ZyHG0xxA&list=PLj6YeMhvp2S79zZvNkatCxVAvALHDwsn3&index=6) covers 3 types of common errors when working with Python in Jupyter Notebooks.
 
 ### 1. Indentation Error
 Whereas in other programming languages the indentation in code is for readability only, the indentation in Python is very important. Python uses indentation to indicate a block of code, so you have to use the same number of spaces in the same block of code, otherwise Python will give you an error, like in the example below.
@@ -37,13 +41,16 @@ This demo leverages some of the GitHub Copilot features available in VS Code to 
 
 1. *Inline suggestions*: GitHub Copilot completes your code and markdown cell content as you type
 2. *Chat*: GitHub Copilot offers a chat experience (both inline and in the sidebar) to get assistance in VS Code, avoiding context-switching
-3. Several [*slash commands*](https://code.visualstudio.com/docs/editor/github-copilot#_slash-commands), such as:
+3. Several [*slash commands*](https://code.visualstudio.com/docs/editor/github-copilot#_agents-and-slash-commands), such as:
    - /createNotebook -> to create a Jupyter Notebook with some specifications
+   > Note that this command has been replaced by `@workspace /newNotebook` with the latest release introducting *agents*.
    - /fix -> to get a suggestion to fix an error
    - /vscode -> to ask questions regarding working with VS Code
+   > Note that this command has been replaced by `@vscode` with the latest release introducting *agents*.
    - /explain -> to ask clarifications about code or error messages
+   > Note that this command has been replaced by `@workspace /explain` with the latest release introducting *agents*.
    - /clear -> to clear the chat window
-   - /document -> to get an AI auto generated documentation of your code
+   - /doc -> to get an AI auto generated documentation of your code
 
 ## Useful resources
 To learn more about how to leverage GitHub Copilot in VS Code for different scenarios, check out the following resources:
